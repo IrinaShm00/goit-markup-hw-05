@@ -863,7 +863,13 @@ font-weight: 500;
     margin-bottom: 8px;
 }
 
+.form-input-textarea {
+margin-bottom: 16px;
+}
 
+.form-input-checkbox {
+    margin-bottom: 24px;
+}
 
 .label-name {
     display: block;
