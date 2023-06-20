@@ -706,7 +706,7 @@ fill: var(--button-color);
     letter-spacing: 0.04em;
 }
 
-.footer-soc-titile {
+.footer-soc-title {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -860,7 +860,7 @@ font-weight: 500;
 }
 
 .form-input {
-    margin-bottom: 24px;
+    margin-bottom: 8px;
 }
 
 
