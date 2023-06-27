@@ -26,6 +26,10 @@
         letter-spacing: 0.02em;
 }
 
+.products {
+    display: none;
+}
+
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
@@ -43,6 +47,25 @@
     .subtitle {
         text-align: unset;
     }
+
+    .products {
+        display: none;
+    }
+
+    .team-list {
+        gap: 64px 24px;
+    }  
+
+    .team-item {
+        width: calc((100% - 64px) / 2);
+        
+    }
+
+    .team .container {
+       max-width: 584px;
+   }
+        
+    
 }
 
 @media screen and (min-width: 1158px) {
@@ -81,8 +104,13 @@
 
    .text {
     font-size: 16px;
+    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.products {
+    display: block;
+}
 
 }
+
