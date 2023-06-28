@@ -95,6 +95,13 @@
   .customer-item {
     width: calc((100% - 48px) / 3);
   }
+ 
+
+  .hero-title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+  }
 
 }
 

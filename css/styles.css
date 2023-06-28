@@ -186,7 +186,8 @@ font-style: normal;
 
 .hero {
  background-color: var(--title-color);
- padding: 188px 0;
+ padding-top: 112px;
+ padding-bottom: 112px;
  background-image: linear-gradient(
     rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)
@@ -195,28 +196,30 @@ font-style: normal;
  background-repeat: no-repeat;
  background-position: center;
  background-size: cover;
- 
  max-width: 1440px;
  margin: 0 auto;
 }
 
 .hero-container {
-width: 1158px;
+width: 428px;
+padding-left: 16px;
+padding-right: 16px;
+margin-left: auto;
+margin-right: auto;
 }
 
 .hero-title {
         font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07;
+        font-size: 36px;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         color: var(--second-text-color);
         background-color: var(--second-color);
         text-align: center;
-        max-width: 496px;
+        max-width: 320px;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 48px;
-        
+        margin-bottom: 72px;  
 }
 
 .hero-button {
@@ -504,17 +507,18 @@ display: none;
 display: flex;
 gap: 72px;
 flex-wrap: wrap;
+justify-content: center;
 
 }
 
 .team-item {
 background-color: #FFFFFF;
 /* width: calc((100% - 72px) / 4); */
-width: 100%;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
 border-radius: 0px 0px 4px 4px;
+max-width: 264px;
 }
 
 .text {
@@ -586,9 +590,9 @@ border-radius: 0px 0px 4px 4px;
 
 .customer-item {
     width: calc((100% - 16px) / 2);
-    
     /* width: calc((100% - 120px) / 6); */
     height: 88px;
+    width: 168px;
 }
 
 .customer-link {
@@ -621,65 +625,70 @@ border-color: #404BBF;
 
 .footer {
 background-color: var(--title-color);
-padding: 100px 0;
+padding: 96px 0;
 }
 
-.footer .container {
+.footer-container {
     display: flex;
+    flex-wrap: wrap;
     align-items: baseline;
-}
+    }
 
 
 .footer-logo {
+        display: inline-block;
         font-family: "Raleway", sans-serif;
-            font-weight: 800;
-            font-size: 18px;
-            line-height: 1.17;
-            letter-spacing: 0.03em;
-            color: var(--logo-color);
-            text-transform: uppercase;
-            display: inline-block;
-            margin-bottom: 16px;
-            text-decoration: none;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        text-decoration: none;
+        letter-spacing: 0.03em;
+        margin-bottom: 16px;
+        text-align: center;
+        text-transform: uppercase;
+        color: var(--logo-color);
+}
+
+.footer-text {
+    max-width: 268px;
+    letter-spacing: 0.02em;
+    color: var(--button-color);
+}
+
+.socialmedia-container .socialmedia-title {
+    font-weight: 500;
+        margin-bottom: 16px;
+        color: var(--second-text-color);
+}
+
+.footer-list {
+    display: flex;
+    margin-bottom: 72px;
+    gap: 16px;
 }
 
 .footer-logo span {
     color: var(--button-color);
 }
 
-.footer-text {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #ffffff;
-        width: 264px;
-        margin-bottom: 16px;
-        font-weight: 500;
-}
+
 
 .footer-logo link {
 margin-bottom: 16px;
 }
 
 .socialmedia-container {
-    width: 208px;
-     height: 80px;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 208px;
 }
 
 .socialmedia-title {
-    font-size: 16px;
-    line-height: 1.5;
+    max-width: 268px;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    margin-bottom: 16px;
-    font-weight: 500;
-}
-
-.footer-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
+    
 }
 
 .footer-item {
@@ -705,6 +714,21 @@ padding: 8px;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.footer-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    min-width: 165px;
+    height: 40px;
+    background: var(--logo-color);
+    color: var(--second-text-color);
+    border-radius: 4px;
+    border: none;
+}
+
 .footer-link:hover,
 .footer-link:focus {
 background-color: #31d0aa;
@@ -718,19 +742,28 @@ fill: var(--button-color);
 }
 
 .logo-text {
-    margin-right: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 72px;
 }
 
 .footer-form {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     gap: 24px;
-
 }
 
 .footer-input-box {
-    margin-left: auto;
+ display: flex;
+ flex-direction: column;
+ margin: 0 auto;
+}
+
+.footer-label {
+    width: 264px;
+    height: 40px;
 }
 
 .footer-input {
@@ -740,21 +773,20 @@ fill: var(--button-color);
     border-radius: 4px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     background-color: transparent;
-     color: var(--second-text-color);
+    color: var(--second-text-color);
     padding: 8px 16px;
-    
     font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.04em;
 }
 
 .footer-soc-title {
-    font-size: 16px;
-    line-height: 1.5;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 16px;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    margin-bottom: 16px;
-    font-weight: 500;
+    
 }
 
 .footer-input::placeholder {
@@ -766,25 +798,7 @@ fill: var(--button-color);
     color: var(--second-text-color);
 }
 
-.footer-button {
-    display: flex;
-    flex-direction: row;
-    font-family: inherit;
-    align-items: center;
-    justify-content: center;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    cursor: pointer;
-    min-width: 165px;
-    height: 40px;
-    background: var(--logo-color);
-    border-radius: 4px;
-    border: none;
-    color: var(--second-text-color);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 
 .footer-button:hover,
 .footer-button:focus {
