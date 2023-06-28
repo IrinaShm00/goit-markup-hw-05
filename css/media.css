@@ -200,6 +200,18 @@
   .customer-item {
       width: calc((100% - 120px) / 6);
   }
-  
+
+  .footer-container {
+    flex-wrap: unset;
+  }
+   .logo-text {
+    width: 264px;
+   }
+
+  .footer-text {
+    width: 100%;
+  }
+
+ 
 }
 
