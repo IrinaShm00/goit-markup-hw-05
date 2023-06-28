@@ -203,15 +203,24 @@
 
   .footer-container {
     flex-wrap: unset;
+    gap: unset;
   }
    .logo-text {
     width: 264px;
+    margin-right: 120px;
    }
 
   .footer-text {
-    width: 100%;
+    width: 264px;
   }
 
+  .footer-list {
+    margin: 0;
+  }
+
+  .socialmedia-container {
+    margin-right: 80px;
+  }
  
 }
 
