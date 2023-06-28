@@ -95,14 +95,46 @@
   .customer-item {
     width: calc((100% - 48px) / 3);
   }
- 
+   
+  .footer-container {
+    padding-left: 108px;
+    gap: 72px 24px;
+  }
 
+  .logo-text {
+    margin: 0;
+  }
+
+  .footer-logo {
+    text-align: start;
+  }
+
+  .socialmedia-container {
+    margin: 0;
+    text-align: unset;
+  }
+
+  .footer-input-box {
+    margin: 0;
+  }
+  
   .hero-title {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
   }
 
+  .footer-soc-title {
+    text-align: left;
+  }
+
+  .footer-form {
+    flex-direction: unset;
+    gap: 24px;
+  }
+
+  .footer-label {
+  }
 }
 
 @media screen and (min-width: 1158px) {
