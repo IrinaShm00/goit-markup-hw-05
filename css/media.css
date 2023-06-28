@@ -35,7 +35,7 @@
       margin-bottom: 8px;
   }
 
-.text-team {
+ .text-team {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -54,7 +54,7 @@
 
     
     .benefits-list {
-        gap: 24px;
+        gap: 72px 24px;
     }
 
     .benefits-item {
@@ -62,7 +62,7 @@
     }
 
     .subtitle {
-        text-align: unset;
+        text-align: left;
         
     }
 
@@ -110,19 +110,22 @@
             margin-bottom: 8px;
 }
 
- 
-
-   
-  .products {
-    display: block;
-}
-
   .team-item {
       width: calc((100% - 72px) / 4);
   }
  
   .team {
     padding: 120px 0;
+  }
+ 
+  .subtitle {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .text {
+    font-weight: 400;
+    min-width: 264px;
   }
 }
 
