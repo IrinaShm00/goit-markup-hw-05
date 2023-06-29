@@ -124,9 +124,19 @@ max-width: 428px;
     flex-grow: 1;
 }
 
+.header-open-btn {
+    border: none;
+     background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-open-btn {
+    stroke: #2E2F42;
+}
 
 
-    
  img {
     display: block;
     width: 100%;
@@ -498,9 +508,7 @@ border-radius: 0px 0px 4px 4px;
 max-width: 264px;
 }
 
-.text {
-    margin-bottom: 8px;
-}
+
 
 .soc-icons {
     display: flex;
