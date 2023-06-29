@@ -125,15 +125,15 @@ max-width: 428px;
 }
 
 .header-open-btn {
-    border: none;
-     background-color: transparent;
-    cursor: pointer;
     display: flex;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
     justify-content: center;
 }
 
 .menu-open-btn {
-    stroke: #2E2F42;
+   stroke: #2E2F42;
 }
 
 
