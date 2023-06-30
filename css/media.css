@@ -54,6 +54,10 @@
         max-width: 768px;
     }
 
+        .header-open-btn {
+          display: none;
+        }
+
    .header-menu {
    display: flex;
    gap: 40px;
@@ -217,7 +221,7 @@
     margin-bottom: 36px;
   }
 
-  
+ 
 }
 
 @media screen and (min-width: 1158px) {
@@ -230,6 +234,10 @@
     .header-container {
       width: 1158px;
     }
+        
+     .header-open-btn {
+      display: none;
+     }
 
     .address-list {
       flex-direction: unset;
@@ -239,8 +247,6 @@
     .address-list-link {
       font-size: 16px;
     }
-
-  
 
     .benefits-list {
         gap: 24px;
@@ -342,4 +348,6 @@
             url(../images/hero-bg-2x.jpg);
     }
 }
+
+
 }
