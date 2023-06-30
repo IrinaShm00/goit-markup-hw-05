@@ -159,7 +159,7 @@ max-width: 428px;
     background-color: #404bbf;
     }
 
-
+/***************MOB-MENU***********/
 .mob-menu {
     position: fixed;
     width: 100vw;
@@ -168,17 +168,16 @@ max-width: 428px;
     left: 0;
     z-index: 2;
     padding: 24px 24px 40px 40px;
-}
+    background-color: #ffffff;
+ }
 
-.mob-menu-container{
-    
-}
+
 
 .menu-close-btn {
     margin-left: auto;
     margin-bottom: 32px;
     background-color: transparent;
-    display: block;
+    display: flex;
     align-items: center;
     justify-content: center;
     width: 24px;
@@ -186,52 +185,96 @@ max-width: 428px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     cursor: pointer;
+   
 }
 
-.mob-menu-item {}
+.mob-menu-list {
 
-.mob-menu-link {}
+}
+
+.mob-menu-item {
+    margin-bottom: 40px;
+}
+
+.mob-menu-item:is(:hover, :focus) {
+    color: #404BBF;
+}
+
+.mob-menu-link {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navyblue);
+}
+
+.mobile-address-cont {
+position: fixed;
+bottom: 0;
+}
 
 .link {}
 
 .mob-current {}
 
-.mob-address {}
+.mob-address {
+   
+}
 
 .mob-menu-list-address {}
 
 .list {}
-
-.mob-menu-item-mail {
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-.mob-menu-mail-link {}
 
 .mob-menu-item-tel {
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: 1.1;
-    letter-spacing: 0.72px;
+    letter-spacing: 0.03em;
     margin-bottom: 40px;
+}
+
+.mob-menu-tel-link {
+   color: #4D5AE5;
+}
+
+.mob-menu-mail-link {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
-.mob-menu-tel-link {}
+.mob-icons-item-icon {
+    fill: var(--button-color);
 
-.mob-icons-list {}
+}
 
-.mob-icons-item {}
+.mob-icons-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+    
+}
 
-.mob-icons-link {}
+.mob-icons-item {
+    width: 40px;
+    height: 40px;
+}
 
-.mob-icons-item-icon {}
-
+.mob-icons-list {
+    display: flex;
+    gap: 56px;
+    padding-top: 48px;
+    padding-bottom: 40px;
+}
 
 /********** HERO ********/
 
