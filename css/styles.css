@@ -185,8 +185,6 @@ max-width: 428px;
 
 
 .menu-close-btn {
-    margin-left: auto;
-    margin-bottom: 32px;
     background-color: transparent;
     display: flex;
     align-items: center;
@@ -196,7 +194,9 @@ max-width: 428px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     cursor: pointer;
-   
+    position: absolute;
+    top: 24px;
+    right: 24px; 
 }
 
 .mob-menu-list {
