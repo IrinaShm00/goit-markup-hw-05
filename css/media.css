@@ -25,6 +25,7 @@
         font-weight: 500;
         line-height: 1.11;
         letter-spacing: 0.02em;
+        
 }
 
   .subtitle-team {
@@ -45,7 +46,6 @@
 .products {
     display: none;
 }
-
 
 
 
@@ -176,7 +176,6 @@
   }
   
 
-
   .footer-soc-title {
     text-align: left;
   }
@@ -248,6 +247,11 @@
       font-size: 16px;
     }
 
+    .benefits. {
+      padding-top: 120px;
+      padding-bottom: 120px;
+    }
+
     .benefits-list {
         gap: 24px;
     }
@@ -266,6 +270,8 @@
             height: 112px;
             margin-bottom: 8px;
 }
+
+
 
 .products{
   display: block;
@@ -287,6 +293,9 @@
   .text {
     font-weight: 400;
     min-width: 264px;
+    font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
   }
 
   .team .container {
@@ -320,6 +329,7 @@
 
   .footer-text {
     width: 264px;
+    line-height: 1.5;
   }
 
   .footer-list {

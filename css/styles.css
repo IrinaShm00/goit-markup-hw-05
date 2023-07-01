@@ -161,25 +161,25 @@ max-width: 428px;
 
 /***************MOB-MENU***********/
 .mob-menu {
+    display: flex;
+    flex-direction: column;
     position: fixed;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     top: 0;
     left: 0;
-    z-index: 2;
-    padding: 24px 24px 40px 40px;
     background-color: #ffffff;
 
-            padding: 80px 35px 40px 40px;
-            background-color: #fff;
-            z-index: 999;
-            transform: translateX(100%);
-            transition: transform 250ms ease-in-out;
-        }
+    padding: 80px 35px 40px 40px;
+    background-color: #fff;
+    z-index: 999;
+    transform: translateX(100%);
+    transition: transform 250ms ease-in-out;
+    }
     
-        .mob-menu.is-open {
-            transform: translateX(0);
-        }
+  .mob-menu.is-open {
+    transform: translateX(0);
+    }
  
 
 
@@ -200,7 +200,7 @@ max-width: 428px;
 }
 
 .mob-menu-list {
-
+margin-bottom: auto;
 }
 
 .mob-menu-item {
@@ -220,18 +220,12 @@ max-width: 428px;
     color: var(--navyblue);
 }
 
-.mobile-address-cont {
-position: fixed;
-bottom: 0;
-}
 
 .link {}
 
 .mob-current {}
 
-.mob-address {
-   
-}
+
 
 .mob-menu-list-address {}
 
@@ -282,9 +276,9 @@ bottom: 0;
 
 .mob-icons-list {
     display: flex;
-    gap: 56px;
+    justify-content: space-between;
     padding-top: 48px;
-    padding-bottom: 40px;
+   
 }
 
 /********** HERO ********/
